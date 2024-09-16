@@ -1,0 +1,56 @@
+.products
+{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center; 
+  padding: 20px;
+
+  background-color: antiquewhite;
+}
+
+.product
+{
+    background-color: #c38888; 
+    border: 1px solid #3d3737; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    width: 200px; 
+    height: 400px;
+    text-align: center; 
+    padding: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #f4f2f2; /* Divider between image and text */
+  }
+  .product h3 {
+    font-size: 1.2em; /* Slightly larger font size for product names */
+    margin: 10px 0; /* Margin above and below product name */
+  }
+  
+  .product p {
+    margin: 5px 0;
+     
+  }
+  
+  .product:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+  } 
+  
+  button{
+    padding: 5px;
+    background-color: aqua;
+    color: #0b0707;
+    border-radius: 4px;
+    
+  }
+  .dark
+  {
+    background-color: black;
+    color: white;
+  }
